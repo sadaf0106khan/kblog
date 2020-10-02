@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bb{
+  
+  background-color: violet;
+}
+.main_header__div{
+  padding: 4px;
+  align-self: start;
+  justify-content: left;
+  margin-left: 20;
+}
+.ss{
+  flex:column;
+  box-sizing: border-box;
+  box-shadow: lightslategrey;
+}
+

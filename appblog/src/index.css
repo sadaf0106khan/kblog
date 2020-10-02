@@ -1,0 +1,31 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main-header
+{
+  display:flex ;
+  justify-content:center;
+   align-items:center;
+    flex:column;
+    color: black;
+    margin-top: 20px;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    font-size: 1.9rem;
+    color: hotpink;
+}
+.navbar a:hover{
+    color: hotpink;
+}
+.menu_active{
+    font-weight: bold;
+    border-bottom: 1px solid hotpink;
+}

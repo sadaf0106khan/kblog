@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 import Service from './Service';
 import Contact from './Contact';
 import About from './About';
 import Home from './Home';
 import {Switch,Route,Redirect} from 'react-router-dom';
 import Navbar from './Navbar';
+import Card from  './Card';
 
 
 const App =()  =>{
@@ -48,9 +50,10 @@ const App =()  =>{
             <div className="row gx-5 mx-sm-auto">
             {/* to get the leftside div space */}
             <div className="col-lg-8 col-md-11 col-11 mx-auto">
-            
+               <div className="row gy-5">
+               {/* our first post code */}
                 <div>
-
+                      <Card/>
                 </div>
             </div>
             </div>
@@ -58,7 +61,7 @@ const App =()  =>{
           </div>
           </div>
 
-        
+        </div>
         </>
   );
 };
